@@ -1,0 +1,104 @@
+/*
+    Created on : Feb 10, 2016
+    Author     : A.K.M. NAZMUL ISLAM
+*/
+
+.dashBoardBackground{
+    background-color: #C7D9EB;
+    font-size: 9px;
+    color: #333;
+}
+.dashBoardHeaderBackground{
+    background-color: #4F7FA6;
+    margin: 5px 0;
+}
+.dashBoardHeaderLeftContent, .dashBoardHeaderRightContent{
+    color: #fff;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.dashBoardHeaderLeftContent{
+    float: left;
+}
+.dashBoardHeaderRightContent{
+    float: right;
+}
+
+
+.tableHeaderTitle{
+    background-color: #8ECFD5; 
+    font-weight: bold; 
+}
+.tableHeaderTitle{
+    background-color: #8ECFD5; 
+    font-weight: bold; 
+    text-align: center;
+}
+.tableHeaderContentTitle{
+    background-color: #DFDBF4; 
+    font-weight: bold; 
+}
+.padding_5px{
+    padding: 4px 0 4px 4px;  
+}
+.padding_2px{
+    padding: 2px;  
+}
+.borderFull{
+    border: 1px solid #fff;
+}
+.borderWithoutTop{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.borderRight{
+    border-right: 1px solid #fff;
+}
+.borderHeight{
+    height: 92px;
+}
+.textBold{
+    font-weight: bold;
+}
+
+.textSize{
+    font-size: 9px;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.whiteBackground{
+    background-color: #fff;
+}
+
+.paglet{
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 1px;
+    box-shadow: 0 0 1px #bbb;
+    border-radius: 3.5px;
+}
+
+.borderBottom{
+    border-bottom: 1px solid lightgray;
+}
+
+.customNav > li > a {
+    padding: 5px 8px!important;
+}
+@media (max-width: 991px) {
+    .maxWindow{
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .marginLeft{
+        margin-left: -25px;  
+    }
+    .miniWindow{
+        display: none;
+    }
+}
