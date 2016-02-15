@@ -74,14 +74,6 @@
     background-color: #fff;
 }
 
-.paglet{
-    background-color: white;
-    padding: 5px;
-    margin-bottom: 1px;
-    box-shadow: 0 0 1px #bbb;
-    border-radius: 3.5px;
-}
-
 .borderBottom{
     border-bottom: 1px solid lightgray;
 }
@@ -93,6 +85,14 @@
     .maxWindow{
         display: none;
     }
+    .paglet{
+        background-color: white;
+        padding: 5px;
+        margin-bottom: 1px;
+        box-shadow: 0 0 1px #bbb;
+        border-radius: 3.5px;
+
+    }
 }
 @media (min-width: 992px) {
     .marginLeft{
@@ -101,4 +101,16 @@
     .miniWindow{
         display: none;
     }
+    .paglet{
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 1px;
+        box-shadow: 0 0 1px #bbb;
+        border-radius: 3.5px;
+        overflow-y: scroll;
+        height: 300px;
+        max-width: 313px;
+    }
 }
+
+
