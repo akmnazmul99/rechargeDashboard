@@ -28,7 +28,7 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="row form-group">
                 <div class="col-md-12">
-                    <div class="pull-right">
+                    <div class="pull-right padding_top_5px">
                         Last Refresh Time: 12-Feb-2016 02:45:17 BDT
                         <input class="btn btn-default btn-xs" type="button" value="Refresh">
                     </div>

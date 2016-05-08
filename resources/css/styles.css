@@ -10,7 +10,6 @@
 }
 .dashBoardHeaderBackground{
     background-color: #4F7FA6;
-    margin: 5px 0;
 }
 .dashBoardHeaderLeftContent, .dashBoardHeaderRightContent{
     color: #fff;
@@ -81,6 +80,31 @@
 .customNav > li > a {
     padding: 5px 8px!important;
 }
+.padding_top_10px{
+    padding-top: 10px;
+}
+.padding_top_5px{
+    padding-top: 5px;
+}
+.slice text {
+    font-size: 12pt;
+    fill: #ffffff;
+}
+
+
+.chart div {
+    background-color: #3AB9B2;
+    padding: 3px;
+    margin: 1px;
+    height: 18px;
+}
+.chart div span{
+    font: 10px sans-serif;
+    float: right;
+    color: #000000;
+    position: absolute;
+}
+
 @media (max-width: 991px) {
     .maxWindow{
         display: none;
@@ -107,7 +131,7 @@
         margin-bottom: 1px;
         box-shadow: 0 0 1px #bbb;
         border-radius: 3.5px;
-        overflow-y: scroll;
+        overflow-y: auto;
         height: 260px;
         max-width: 313px;
     }

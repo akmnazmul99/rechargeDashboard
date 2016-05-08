@@ -1,19 +1,3 @@
-<style>
-
-    .chart div {
-        background-color: #3AB9B2;
-        padding: 3px;
-        margin: 1px;
-        height: 18px;
-    }
-    .chart div span{
-        font: 10px sans-serif;
-        float: right;
-        color: #000000;
-        position: absolute;
-    }
-</style>
-
 <div class="chart">
     <div style="width: 100%;"><span>Nazmul Hasan</span></div>
     <div style="width: 90%;"><span>Alamgir Kabir</span></div>

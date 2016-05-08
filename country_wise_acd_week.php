@@ -1,21 +1,13 @@
-<style type="text/css">
-    .slice text {
-        font-size: 12pt;
-        fill: #ffffff;
-    }
-</style>
 <script type="text/javascript">
     var special_interests = [{"label": "one", "value": 25},
         {"label": "two", "value": 55},
         {"label": "three", "value": 20}];
 
     $(function() {
-
-
-        var w = 320, //width
-                h = 320, //height
-                r = 160, //radius
-                color = ['#DC3812', '#3266CC', '#FE9900'];
+        var w = 160, //width
+        h = 160, //height
+        r = 80, //radius
+        color = ['#DC3812', '#3266CC', '#FE9900'];
         var data = Array();
         for (var i = 0; i < special_interests.length; i++) {
             data.push({"label": special_interests[i].value, "value": 1});
@@ -80,7 +72,7 @@
 <form>
     <div class="row">
         <div class="col-md-12">
-            <div id="acdWeek" ></div>
+            <div class="text-center padding_top_10px" id="acdWeek" ></div>
         </div>
     </div>
 </form>

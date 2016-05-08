@@ -1,20 +1,12 @@
-<style type="text/css">
-    .slice text {
-        font-size: 12pt;
-        fill: #ffffff;
-    }
-</style>
 <script type="text/javascript">
     var special_interests = [{"label": "one", "value": 55},
         {"label": "two", "value": 20},
         {"label": "three", "value": 55}];
    
     $(function() {
-      
-        
-        var w = 320, //width
-        h = 320, //height
-        r = 160, //radius
+        var w = 160, //width
+        h = 160, //height
+        r = 80, //radius
         color = ['#DC3812', '#3266CC', '#FE9900'];
         var data = Array();
         for (var i = 0; i < special_interests.length; i++) {
@@ -75,7 +67,7 @@
 <form>
     <div class="row">
         <div class="col-md-12">
-            <div id="trafficToday" ></div>
+            <div class="text-center padding_top_10px" id="trafficToday" ></div>
         </div>
     </div>
 </form>
